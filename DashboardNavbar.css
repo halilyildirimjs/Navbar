@@ -1,0 +1,80 @@
+#logo{
+    align-content: flex-start;
+    
+}
+#lingush-text{
+    color: black;
+    font-family:'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    text-align:center;
+}
+ 
+/* .side-bar{
+    text-align:center;
+    text-justify:distribute;
+    justify-content: center;
+    background-color: red;
+    position: absolute;
+    height: 100%;
+    box-shadow: 1px 1px 5px rgba(69, 103, 27, 0.53);
+    box-sizing: initial;
+    float: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 44px; 
+} */
+
+
+
+/* .side-bar-text{
+    text-align:left;
+    text-justify:distribute;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    box-shadow: 1px 1px 5px rgba(69, 103, 27, 0.53);
+    box-sizing: initial;
+    float: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px; 
+
+} */
+#side-line{
+    background: linear-gradient(180deg, #C24DC0 7.06%, #EF4E9B 100%);
+    display: block;
+}
+
+.navbar{
+    font-family: 'Poppins', sans-serif!important;
+    color:ivory;
+    text-align:start;
+    box-shadow: 1px 1px 5px rgba(69, 103, 27, 0.53);;
+    align-items:center;
+    float: left;
+    position: relative;
+    box-sizing: initial;
+    text-align:left;
+    text-justify:distribute;
+    justify-content: center;
+    height: 100%;
+    box-sizing: initial;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 75px; 
+  }
+
+@media screen and (max-width: 950px) {
+    .navbar{
+        justify-content: flex-start!important;
+        
+    }
+}

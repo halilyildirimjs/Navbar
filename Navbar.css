@@ -1,0 +1,41 @@
+.lingush-logo{
+    display: flex;
+    align-items: center;
+    
+}
+.lingush-logo .text{
+    background: linear-gradient(180deg, #C24DC0 0%, #EF4E9B 100%);
+    -webkit-background-clip: text;
+    font-size: 45.5px!important;
+    -webkit-text-fill-color: transparent;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif!important;
+    font-style: normal!important;
+    font-weight: 600!important;
+}
+.MuiTypography-body1{
+    font-family: 'Poppins', sans-serif!important;
+    font-style: normal!important;
+    font-weight: 600!important;
+    font-size: 24px!important;
+    line-height: 36px!important;
+   
+}
+.MuiButton-root{
+}
+
+/* responsiveness */
+@media screen and (max-width: 950px) {
+    .nav{
+        justify-content: flex-start!important;
+        position: fixed;
+        top: 0;
+        background-color: rgb(255, 185, 249);
+        
+        
+    }
+}
+.lin-logo {
+        background:  #ffffff;
+  
+}
